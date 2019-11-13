@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA23552E237C0144009E27C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA23552D237C0144009E27C5 /* AppDelegate.m */; };
+		BA235531237C0144009E27C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA235530237C0144009E27C5 /* ViewController.m */; };
+		BA235534237C0144009E27C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA235532237C0144009E27C5 /* Main.storyboard */; };
+		BA235536237C0145009E27C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA235535237C0145009E27C5 /* Assets.xcassets */; };
+		BA235539237C0145009E27C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA235537237C0145009E27C5 /* LaunchScreen.storyboard */; };
+		BA23553C237C0145009E27C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA23553B237C0145009E27C5 /* main.m */; };
+		BA235546237C0145009E27C5 /* NativeReactAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA235545237C0145009E27C5 /* NativeReactAppTests.m */; };
+		BA235551237C0145009E27C5 /* NativeReactAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA235550237C0145009E27C5 /* NativeReactAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA235542237C0145009E27C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA235521237C0143009E27C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA235528237C0143009E27C5;
+			remoteInfo = NativeReactApp;
+		};
+		BA23554D237C0145009E27C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA235521237C0143009E27C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA235528237C0143009E27C5;
+			remoteInfo = NativeReactApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA235529237C0143009E27C5 /* NativeReactApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeReactApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA23552C237C0144009E27C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA23552D237C0144009E27C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA23552F237C0144009E27C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA235530237C0144009E27C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA235533237C0144009E27C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA235535237C0145009E27C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA235538237C0145009E27C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA23553A237C0145009E27C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA23553B237C0145009E27C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA235541237C0145009E27C5 /* NativeReactAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeReactAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA235545237C0145009E27C5 /* NativeReactAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeReactAppTests.m; sourceTree = "<group>"; };
+		BA235547237C0145009E27C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA23554C237C0145009E27C5 /* NativeReactAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeReactAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA235550237C0145009E27C5 /* NativeReactAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeReactAppUITests.m; sourceTree = "<group>"; };
+		BA235552237C0145009E27C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA235526237C0143009E27C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA23553E237C0145009E27C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA235549237C0145009E27C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA235520237C0143009E27C5 = {
+			isa = PBXGroup;
+			children = (
+				BA23552B237C0143009E27C5 /* NativeReactApp */,
+				BA235544237C0145009E27C5 /* NativeReactAppTests */,
+				BA23554F237C0145009E27C5 /* NativeReactAppUITests */,
+				BA23552A237C0143009E27C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA23552A237C0143009E27C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA235529237C0143009E27C5 /* NativeReactApp.app */,
+				BA235541237C0145009E27C5 /* NativeReactAppTests.xctest */,
+				BA23554C237C0145009E27C5 /* NativeReactAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA23552B237C0143009E27C5 /* NativeReactApp */ = {
+			isa = PBXGroup;
+			children = (
+				BA23552C237C0144009E27C5 /* AppDelegate.h */,
+				BA23552D237C0144009E27C5 /* AppDelegate.m */,
+				BA23552F237C0144009E27C5 /* ViewController.h */,
+				BA235530237C0144009E27C5 /* ViewController.m */,
+				BA235532237C0144009E27C5 /* Main.storyboard */,
+				BA235535237C0145009E27C5 /* Assets.xcassets */,
+				BA235537237C0145009E27C5 /* LaunchScreen.storyboard */,
+				BA23553A237C0145009E27C5 /* Info.plist */,
+				BA23553B237C0145009E27C5 /* main.m */,
+			);
+			path = NativeReactApp;
+			sourceTree = "<group>";
+		};
+		BA235544237C0145009E27C5 /* NativeReactAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA235545237C0145009E27C5 /* NativeReactAppTests.m */,
+				BA235547237C0145009E27C5 /* Info.plist */,
+			);
+			path = NativeReactAppTests;
+			sourceTree = "<group>";
+		};
+		BA23554F237C0145009E27C5 /* NativeReactAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA235550237C0145009E27C5 /* NativeReactAppUITests.m */,
+				BA235552237C0145009E27C5 /* Info.plist */,
+			);
+			path = NativeReactAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA235528237C0143009E27C5 /* NativeReactApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA235555237C0145009E27C5 /* Build configuration list for PBXNativeTarget "NativeReactApp" */;
+			buildPhases = (
+				BA235525237C0143009E27C5 /* Sources */,
+				BA235526237C0143009E27C5 /* Frameworks */,
+				BA235527237C0143009E27C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeReactApp;
+			productName = NativeReactApp;
+			productReference = BA235529237C0143009E27C5 /* NativeReactApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA235540237C0145009E27C5 /* NativeReactAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA235558237C0145009E27C5 /* Build configuration list for PBXNativeTarget "NativeReactAppTests" */;
+			buildPhases = (
+				BA23553D237C0145009E27C5 /* Sources */,
+				BA23553E237C0145009E27C5 /* Frameworks */,
+				BA23553F237C0145009E27C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA235543237C0145009E27C5 /* PBXTargetDependency */,
+			);
+			name = NativeReactAppTests;
+			productName = NativeReactAppTests;
+			productReference = BA235541237C0145009E27C5 /* NativeReactAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA23554B237C0145009E27C5 /* NativeReactAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA23555B237C0145009E27C5 /* Build configuration list for PBXNativeTarget "NativeReactAppUITests" */;
+			buildPhases = (
+				BA235548237C0145009E27C5 /* Sources */,
+				BA235549237C0145009E27C5 /* Frameworks */,
+				BA23554A237C0145009E27C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA23554E237C0145009E27C5 /* PBXTargetDependency */,
+			);
+			name = NativeReactAppUITests;
+			productName = NativeReactAppUITests;
+			productReference = BA23554C237C0145009E27C5 /* NativeReactAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA235521237C0143009E27C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "王铎";
+				TargetAttributes = {
+					BA235528237C0143009E27C5 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					BA235540237C0145009E27C5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BA235528237C0143009E27C5;
+					};
+					BA23554B237C0145009E27C5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BA235528237C0143009E27C5;
+					};
+				};
+			};
+			buildConfigurationList = BA235524237C0143009E27C5 /* Build configuration list for PBXProject "NativeReactApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA235520237C0143009E27C5;
+			productRefGroup = BA23552A237C0143009E27C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA235528237C0143009E27C5 /* NativeReactApp */,
+				BA235540237C0145009E27C5 /* NativeReactAppTests */,
+				BA23554B237C0145009E27C5 /* NativeReactAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA235527237C0143009E27C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA235539237C0145009E27C5 /* LaunchScreen.storyboard in Resources */,
+				BA235536237C0145009E27C5 /* Assets.xcassets in Resources */,
+				BA235534237C0144009E27C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA23553F237C0145009E27C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA23554A237C0145009E27C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA235525237C0143009E27C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA235531237C0144009E27C5 /* ViewController.m in Sources */,
+				BA23553C237C0145009E27C5 /* main.m in Sources */,
+				BA23552E237C0144009E27C5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA23553D237C0145009E27C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA235546237C0145009E27C5 /* NativeReactAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA235548237C0145009E27C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA235551237C0145009E27C5 /* NativeReactAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA235543237C0145009E27C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA235528237C0143009E27C5 /* NativeReactApp */;
+			targetProxy = BA235542237C0145009E27C5 /* PBXContainerItemProxy */;
+		};
+		BA23554E237C0145009E27C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA235528237C0143009E27C5 /* NativeReactApp */;
+			targetProxy = BA23554D237C0145009E27C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA235532237C0144009E27C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA235533237C0144009E27C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA235537237C0145009E27C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA235538237C0145009E27C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA235553237C0145009E27C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA235554237C0145009E27C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA235556237C0145009E27C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NativeReactApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.NativeReactApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA235557237C0145009E27C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NativeReactApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.NativeReactApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA235559237C0145009E27C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NativeReactAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.NativeReactAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeReactApp.app/NativeReactApp";
+			};
+			name = Debug;
+		};
+		BA23555A237C0145009E27C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NativeReactAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.NativeReactAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeReactApp.app/NativeReactApp";
+			};
+			name = Release;
+		};
+		BA23555C237C0145009E27C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NativeReactAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.NativeReactAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NativeReactApp;
+			};
+			name = Debug;
+		};
+		BA23555D237C0145009E27C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NativeReactAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.NativeReactAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NativeReactApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA235524237C0143009E27C5 /* Build configuration list for PBXProject "NativeReactApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA235553237C0145009E27C5 /* Debug */,
+				BA235554237C0145009E27C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA235555237C0145009E27C5 /* Build configuration list for PBXNativeTarget "NativeReactApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA235556237C0145009E27C5 /* Debug */,
+				BA235557237C0145009E27C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA235558237C0145009E27C5 /* Build configuration list for PBXNativeTarget "NativeReactAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA235559237C0145009E27C5 /* Debug */,
+				BA23555A237C0145009E27C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA23555B237C0145009E27C5 /* Build configuration list for PBXNativeTarget "NativeReactAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA23555C237C0145009E27C5 /* Debug */,
+				BA23555D237C0145009E27C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA235521237C0143009E27C5 /* Project object */;
+}
