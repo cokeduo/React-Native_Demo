@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RNViewController.h"
 
 @interface ViewController ()
 
@@ -16,8 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.title = @"Native ViewController";
 }
 
+- (IBAction)gotoReactNative:(UIButton *)sender {
+    [self.navigationController pushViewController:[RNViewController new] animated:YES];
+}
+    
 
 @end
